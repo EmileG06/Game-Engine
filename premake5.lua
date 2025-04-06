@@ -4,6 +4,8 @@ workspace "Game-Engine"
 
     defines { "WINDOWS" }
 
+    buildoptions { "/utf-8" }
+
 filter "configurations:Debug"
     defines { "DEBUG" }
     symbols "On"

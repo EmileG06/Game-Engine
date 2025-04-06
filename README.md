@@ -1,2 +1,2 @@
 # Game-Engine
-Game engine using SFML as a framework
+Game engine using OpenGL 4.6

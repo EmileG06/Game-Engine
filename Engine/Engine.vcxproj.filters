@@ -1,27 +1,1432 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Engine">
-      <UniqueIdentifier>{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}</UniqueIdentifier>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine">
+      <UniqueIdentifier>{12A1320E-FE58-745B-6760-4DB753370F4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Core">
+      <UniqueIdentifier>{AA407579-16CC-E23D-1FDD-65328BE73E3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Events">
+      <UniqueIdentifier>{B624EAB0-223B-E846-6BB2-7368D707B9CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\ImGui">
+      <UniqueIdentifier>{BC1B88A8-A814-A7FA-D146-8C7FBD9E8606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\ImGui\OpenGL">
+      <UniqueIdentifier>{70B9B013-DCF0-F8AA-E5FA-5CCE51B11FA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Layers">
+      <UniqueIdentifier>{910FCDBF-FD25-CB55-469D-5677B2F29BDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Log">
+      <UniqueIdentifier>{E3F1FB39-CFBF-EF3F-B853-6066A4C0CBA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Window">
+      <UniqueIdentifier>{B98500DA-259C-FE6F-6E13-8A91DA68CFF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glad">
+      <UniqueIdentifier>{9A8E79C1-0644-F2B6-8F38-EC8DFBECE8BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glad\include">
+      <UniqueIdentifier>{0DB0903E-7911-6E4C-027F-B4FE6EDFA40B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glad\include\GLAD">
+      <UniqueIdentifier>{B47A4C86-A09F-9B06-C9EA-8096B56E9A24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glad\include\KHR">
+      <UniqueIdentifier>{01FD6E78-6D34-B70F-763E-1B33E2F4DD08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glew">
+      <UniqueIdentifier>{318F79C1-9D44-F2B6-2639-EC8D92EDE8BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glew\include">
+      <UniqueIdentifier>{A457F7F3-10B9-D401-9926-1BB405870BC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glew\include\GLEW">
+      <UniqueIdentifier>{42792E79-2E9E-7DF9-57E9-6289436D7C17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glfw">
+      <UniqueIdentifier>{528F79C1-BE44-F2B6-4739-EC8DB3EDE8BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glfw\include">
+      <UniqueIdentifier>{C5E801F8-314A-DF05-BAB7-25B8261816C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glfw\include\GLFW">
+      <UniqueIdentifier>{24E7751C-100C-C59C-3957-AA2C25DBC3BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm">
+      <UniqueIdentifier>{829FC5A8-6E57-07F6-D75E-E051C335A2E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm\include">
+      <UniqueIdentifier>{F528B309-E10C-745F-4A6D-6EB236705EE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm\include\GLM">
+      <UniqueIdentifier>{64997390-5093-9CE2-3900-33F32599024F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm\include\GLM\detail">
+      <UniqueIdentifier>{A6989EE5-12B1-850F-DB5D-15A947351AA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm\include\GLM\ext">
+      <UniqueIdentifier>{C42EC569-B03E-713A-19F8-D558052760D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm\include\GLM\gtc">
+      <UniqueIdentifier>{B136C569-9D46-713A-0600-D658F22E60D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm\include\GLM\gtx">
+      <UniqueIdentifier>{C636C569-B246-713A-1B00-D658072F60D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm\include\GLM\simd">
+      <UniqueIdentifier>{407472A2-AC81-A088-3568-9C73A1746C3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui">
+      <UniqueIdentifier>{5D3BD0F0-499E-5F95-F223-984BDE652B18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui\include">
+      <UniqueIdentifier>{D06F9DBA-BCFE-2684-651D-3B7F518B372A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui\include\backends">
+      <UniqueIdentifier>{FAB355C6-66CC-3CF0-2F79-CC899B50D189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\spdlog">
+      <UniqueIdentifier>{8BBC5F22-F77C-DB58-C0B7-24D62C372035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\spdlog\include">
+      <UniqueIdentifier>{FE3E7AAE-6AAB-35A9-339F-CD069FCA5711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\spdlog\include\spdlog">
+      <UniqueIdentifier>{76856FF2-6240-5F9E-0BF8-D7E8F791A92E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\spdlog\include\spdlog\cfg">
+      <UniqueIdentifier>{F5C81C01-E119-0843-0A7E-F604F62D9BAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\spdlog\include\spdlog\details">
+      <UniqueIdentifier>{EB8B59AF-D772-1BA7-80C3-81C46C89940D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\spdlog\include\spdlog\fmt">
+      <UniqueIdentifier>{ACD61C01-9827-0843-C18B-F604AD3B9BAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\spdlog\include\spdlog\fmt\bundled">
+      <UniqueIdentifier>{99E1FA97-855E-EEDA-AEDB-EEEE9AB78A6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\spdlog\include\spdlog\sinks">
+      <UniqueIdentifier>{6D3396BC-596F-9926-C281-B11DAEDC4141}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Engine.h" />
-    <ClInclude Include="src\Engine\Core.h">
-      <Filter>Engine</Filter>
+    <ClInclude Include="src\Engine.h">
+      <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\Entry.h">
-      <Filter>Engine</Filter>
+    <ClInclude Include="src\Engine\Application.h">
+      <Filter>src\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="src\Engine\Game.h">
-      <Filter>Engine</Filter>
+    <ClInclude Include="src\Engine\Core\Core.h">
+      <Filter>src\Engine\Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pch.h" />
+    <ClInclude Include="src\Engine\Core\Entry.h">
+      <Filter>src\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Events\ApplicationEvents.h">
+      <Filter>src\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Events\Events.h">
+      <Filter>src\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Events\KeyEvents.h">
+      <Filter>src\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Events\MouseEvents.h">
+      <Filter>src\Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\ImGui\ImGuiLayer.h">
+      <Filter>src\Engine\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\ImGui\OpenGL\ImGuiOpenGLRenderer.h">
+      <Filter>src\Engine\ImGui\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Layers\Layer.h">
+      <Filter>src\Engine\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Layers\LayerStack.h">
+      <Filter>src\Engine\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Log\Log.h">
+      <Filter>src\Engine\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Window\Window.h">
+      <Filter>src\Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glad\include\GLAD\glad.h">
+      <Filter>vendor\glad\include\GLAD</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glad\include\KHR\khrplatform.h">
+      <Filter>vendor\glad\include\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glew\include\GLEW\eglew.h">
+      <Filter>vendor\glew\include\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glew\include\GLEW\glew.h">
+      <Filter>vendor\glew\include\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glew\include\GLEW\glxew.h">
+      <Filter>vendor\glew\include\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glew\include\GLEW\wglew.h">
+      <Filter>vendor\glew\include\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glfw\include\GLFW\glfw3.h">
+      <Filter>vendor\glfw\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glfw\include\GLFW\glfw3native.h">
+      <Filter>vendor\glfw\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\common.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\_features.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\_fixes.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\_noise.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\_swizzle.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\_swizzle_func.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\_vectorize.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\compute_common.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\compute_vector_decl.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\compute_vector_relational.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\qualifier.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\setup.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_float.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_half.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_mat2x2.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_mat2x3.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_mat2x4.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_mat3x2.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_mat3x3.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_mat3x4.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_mat4x2.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_mat4x3.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_mat4x4.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_quat.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_vec1.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_vec2.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_vec3.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\detail\type_vec4.hpp">
+      <Filter>vendor\glm\include\GLM\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\exponential.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\_matrix_vectorize.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_clip_space.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_common.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double2x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double2x2_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double2x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double2x3_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double2x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double2x4_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double3x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double3x2_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double3x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double3x3_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double3x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double3x4_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double4x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double4x2_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double4x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double4x3_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double4x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_double4x4_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float2x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float2x2_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float2x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float2x3_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float2x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float2x4_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float3x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float3x2_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float3x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float3x3_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float3x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float3x4_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float4x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float4x2_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float4x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float4x3_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float4x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_float4x4_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int2x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int2x2_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int2x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int2x3_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int2x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int2x4_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int3x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int3x2_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int3x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int3x3_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int3x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int3x4_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int4x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int4x2_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int4x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int4x3_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int4x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_int4x4_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_integer.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_projection.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_relational.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_transform.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint2x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint2x2_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint2x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint2x3_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint2x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint2x4_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint3x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint3x2_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint3x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint3x3_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint3x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint3x4_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint4x2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint4x2_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint4x3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint4x3_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint4x4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\matrix_uint4x4_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\quaternion_common.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\quaternion_double.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\quaternion_double_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\quaternion_exponential.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\quaternion_float.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\quaternion_float_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\quaternion_geometric.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\quaternion_relational.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\quaternion_transform.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\quaternion_trigonometric.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\scalar_common.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\scalar_constants.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\scalar_int_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\scalar_integer.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\scalar_packing.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\scalar_reciprocal.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\scalar_relational.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\scalar_uint_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\scalar_ulp.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_bool1.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_bool1_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_bool2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_bool2_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_bool3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_bool3_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_bool4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_bool4_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_common.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_double1.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_double1_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_double2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_double2_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_double3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_double3_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_double4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_double4_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_float1.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_float1_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_float2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_float2_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_float3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_float3_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_float4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_float4_precision.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_int1.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_int1_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_int2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_int2_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_int3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_int3_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_int4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_int4_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_integer.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_packing.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_reciprocal.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_relational.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_uint1.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_uint1_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_uint2.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_uint2_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_uint3.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_uint3_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_uint4.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_uint4_sized.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\ext\vector_ulp.hpp">
+      <Filter>vendor\glm\include\GLM\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\fwd.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\geometric.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\glm.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\bitfield.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\color_space.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\constants.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\epsilon.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\integer.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\matrix_access.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\matrix_integer.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\matrix_inverse.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\matrix_transform.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\noise.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\packing.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\quaternion.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\random.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\reciprocal.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\round.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\type_aligned.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\type_precision.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\type_ptr.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\ulp.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtc\vec1.hpp">
+      <Filter>vendor\glm\include\GLM\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\associated_min_max.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\bit.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\closest_point.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\color_encoding.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\color_space.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\color_space_YCoCg.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\common.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\compatibility.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\component_wise.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\dual_quaternion.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\easing.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\euler_angles.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\extend.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\extended_min_max.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\exterior_product.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\fast_exponential.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\fast_square_root.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\fast_trigonometry.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\functions.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\gradient_paint.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\handed_coordinate_space.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\hash.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\integer.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\intersect.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\io.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\log_base.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\matrix_cross_product.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\matrix_decompose.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\matrix_factorisation.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\matrix_interpolation.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\matrix_major_storage.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\matrix_operation.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\matrix_query.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\matrix_transform_2d.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\mixed_product.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\norm.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\normal.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\normalize_dot.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\number_precision.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\optimum_pow.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\orthonormalize.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\pca.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\perpendicular.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\polar_coordinates.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\projection.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\quaternion.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\range.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\raw_data.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\rotate_normalized_axis.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\rotate_vector.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\scalar_multiplication.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\scalar_relational.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\spline.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\std_based_type.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\string_cast.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\texture.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\transform.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\transform2.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\type_aligned.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\type_trait.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\vec_swizzle.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\vector_angle.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\vector_query.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\gtx\wrap.hpp">
+      <Filter>vendor\glm\include\GLM\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\integer.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\mat2x2.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\mat2x3.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\mat2x4.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\mat3x2.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\mat3x3.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\mat3x4.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\mat4x2.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\mat4x3.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\mat4x4.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\matrix.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\packing.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\simd\common.h">
+      <Filter>vendor\glm\include\GLM\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\simd\exponential.h">
+      <Filter>vendor\glm\include\GLM\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\simd\geometric.h">
+      <Filter>vendor\glm\include\GLM\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\simd\integer.h">
+      <Filter>vendor\glm\include\GLM\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\simd\matrix.h">
+      <Filter>vendor\glm\include\GLM\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\simd\neon.h">
+      <Filter>vendor\glm\include\GLM\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\simd\packing.h">
+      <Filter>vendor\glm\include\GLM\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\simd\platform.h">
+      <Filter>vendor\glm\include\GLM\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\simd\trigonometric.h">
+      <Filter>vendor\glm\include\GLM\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\simd\vector_relational.h">
+      <Filter>vendor\glm\include\GLM\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\trigonometric.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\vec2.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\vec3.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\vec4.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\include\GLM\vector_relational.hpp">
+      <Filter>vendor\glm\include\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\backends\imgui_impl_glfw.h">
+      <Filter>vendor\imgui\include\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\backends\imgui_impl_opengl2.h">
+      <Filter>vendor\imgui\include\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\backends\imgui_impl_opengl3.h">
+      <Filter>vendor\imgui\include\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\backends\imgui_impl_opengl3_loader.h">
+      <Filter>vendor\imgui\include\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\backends\imgui_impl_win32.h">
+      <Filter>vendor\imgui\include\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\imconfig.h">
+      <Filter>vendor\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\imgui.h">
+      <Filter>vendor\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\imgui_internal.h">
+      <Filter>vendor\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\imstb_rectpack.h">
+      <Filter>vendor\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\imstb_textedit.h">
+      <Filter>vendor\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\include\imstb_truetype.h">
+      <Filter>vendor\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\async.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\async_logger-inl.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\async_logger.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\cfg\argv.h">
+      <Filter>vendor\spdlog\include\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\cfg\env.h">
+      <Filter>vendor\spdlog\include\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\cfg\helpers-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\cfg\helpers.h">
+      <Filter>vendor\spdlog\include\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\common-inl.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\common.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\backtracer-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\backtracer.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\circular_q.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\console_globals.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\file_helper-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\file_helper.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\fmt_helper.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\log_msg-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\log_msg.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\log_msg_buffer-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\log_msg_buffer.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\mpmc_blocking_q.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\null_mutex.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\os-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\os.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\periodic_worker-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\periodic_worker.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\registry-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\registry.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\synchronous_factory.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\tcp_client-windows.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\tcp_client.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\thread_pool-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\thread_pool.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\udp_client-windows.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\udp_client.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\details\windows_include.h">
+      <Filter>vendor\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bin_to_hex.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\args.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\base.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\chrono.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\color.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\compile.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\core.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\format-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\format.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\os.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\ostream.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\printf.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\ranges.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\std.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\bundled\xchar.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\chrono.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\compile.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\fmt.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\ostr.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\ranges.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\std.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fmt\xchar.h">
+      <Filter>vendor\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\formatter.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\fwd.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\logger-inl.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\logger.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\mdc.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\pattern_formatter-inl.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\pattern_formatter.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\android_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\ansicolor_sink-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\ansicolor_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\base_sink-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\base_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\basic_file_sink-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\basic_file_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\callback_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\daily_file_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\dist_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\dup_filter_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\hourly_file_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\kafka_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\mongo_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\msvc_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\null_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\ostream_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\qt_sinks.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\ringbuffer_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\rotating_file_sink-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\rotating_file_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\sink-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\stdout_color_sinks-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\stdout_color_sinks.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\stdout_sinks-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\stdout_sinks.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\syslog_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\systemd_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\tcp_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\udp_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\win_eventlog_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\wincolor_sink-inl.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\sinks\wincolor_sink.h">
+      <Filter>vendor\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\spdlog-inl.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\spdlog.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\stopwatch.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\tweakme.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\spdlog\include\spdlog\version.h">
+      <Filter>vendor\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Input\Input.h" />
+    <ClInclude Include="src\Engine\Input\KeyCodes.h" />
+    <ClInclude Include="src\Engine\Input\MouseButtonCodes.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Engine\Game.cpp">
-      <Filter>Engine</Filter>
+    <ClCompile Include="src\Engine\Application.cpp">
+      <Filter>src\Engine</Filter>
     </ClCompile>
-    <ClCompile Include="src\Pch.cpp" />
+    <ClCompile Include="src\Engine\ImGui\ImGuiLayer.cpp">
+      <Filter>src\Engine\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\ImGui\OpenGL\ImGuiOpenGLRenderer.cpp">
+      <Filter>src\Engine\ImGui\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Layers\Layer.cpp">
+      <Filter>src\Engine\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Layers\LayerStack.cpp">
+      <Filter>src\Engine\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Log\Log.cpp">
+      <Filter>src\Engine\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Window\Window.cpp">
+      <Filter>src\Engine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Input\Input.cpp" />
   </ItemGroup>
 </Project>

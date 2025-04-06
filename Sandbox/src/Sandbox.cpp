@@ -1,12 +1,40 @@
 #include "Engine.h"
 
-class MyGame : public Engine::Game
+class ExampleLayer : public Engine::Layer
 {
 public:
+	ExampleLayer()
+		: Layer("ExampleLayer")
+	{
+	}
 
+	void OnUpdate() override
+	{
+		CLIENT_TRACE("ExampleLayer::OnUpdate");
+	}
+
+	void OnEvent(Engine::Event& event) override
+	{
+		CLIENT_TRACE("{0}", event.ToString());
+	}
 };
 
-Engine::Game* CreateGame(int argc, char** argv)
+class Game : public Engine::Application
 {
-	return new MyGame();
+public:
+	Game()
+	{
+		PushLayer(new ExampleLayer());
+		PushOverlay(new Engine::ImGuiLayer());
+	}
+
+	~Game()
+	{
+
+	}
+};
+
+Engine::Application* CreateApplication(int argc, char** argv)
+{
+	return new Game();
 }
